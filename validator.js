@@ -3,7 +3,7 @@ function isInvalidEmail(userObject) {
 }
 
 function isEmptyPayload(userObject) {
-    return Object.keys(userObject).lenght === 0
+    return Object.keys(userObject).length === 0
 }
 
 module.exports = {
